@@ -1,0 +1,213 @@
+2020-08-14 12:07:50.545  INFO 772 --- [main] c.c.c.CartManagementSystemApplication    : Starting CartManagementSystemApplication on LAPTOP-T8HNFTKL with PID 772 (C:\Users\user\Desktop\Bootcamp\CartManagementSystem\target\classes started by user in C:\Users\user\Desktop\Bootcamp\CartManagementSystem)
+2020-08-14 12:07:50.554  INFO 772 --- [main] c.c.c.CartManagementSystemApplication    : No active profile set, falling back to default profiles: default
+2020-08-14 12:07:53.394  INFO 772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-14 12:07:53.656  INFO 772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 218ms. Found 1 JPA repository interfaces.
+2020-08-14 12:07:55.223  INFO 772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2020-08-14 12:07:55.236  INFO 772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-14 12:07:55.236  INFO 772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-14 12:07:55.460  INFO 772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-14 12:07:55.461  INFO 772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4713 ms
+2020-08-14 12:07:55.513  INFO 772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-14 12:07:56.280  INFO 772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-14 12:07:56.286  INFO 772 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:karan'
+2020-08-14 12:07:56.756  INFO 772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-14 12:07:57.046  INFO 772 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-14 12:07:57.214  WARN 772 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-14 12:07:57.654  INFO 772 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-14 12:07:58.281  INFO 772 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-14 12:07:58.939  INFO 772 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-14 12:07:59.118  INFO 772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2020-08-14 12:07:59.120  INFO 772 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-14 12:08:00.495  INFO 772 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-14 12:08:00.509  INFO 772 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-14 12:08:01.582  INFO 772 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-14 12:08:01.592  INFO 772 --- [main] c.c.c.CartManagementSystemApplication    : Started CartManagementSystemApplication in 13.457 seconds (JVM running for 15.239)
+2020-08-14 12:10:17.607  INFO 772 --- [http-nio-8099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-14 12:10:17.608  INFO 772 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-14 12:10:17.615  INFO 772 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-14 12:10:17.897 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : product has been added sucessfully
+2020-08-14 12:10:23.405 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : product has been added sucessfully
+2020-08-14 12:12:08.450 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:12:36.507 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:12:59.037 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:13:30.484 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:17:28.564 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:20:48.864 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:23:13.988 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:23:18.294 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:23:19.553 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:27:22.841 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:27:28.409 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:27:29.247 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:27:29.865 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:27:58.083 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:39:09.015 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:39:28.896 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:41:16.773 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:41:23.320 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:42:01.006 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:42:47.603 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:45:49.354 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:49:50.992 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:50:42.259 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:51:18.016 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:51:54.818 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:52:29.205 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:53:52.315 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:54:00.114 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:54:31.505 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:54:41.481 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:55:17.913 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 12:58:12.070 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:00:46.895 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:00:52.382 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:03:00.541 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:03:17.205 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:03:37.076 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : product has been added sucessfully
+2020-08-14 13:03:37.146 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:03:59.812 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : product has been added sucessfully
+2020-08-14 13:03:59.835 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:04:04.957 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:04:43.489 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:05:42.951 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:06:52.233 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:09:24.781 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:10:10.259 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:11:25.046 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:12:54.211 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:13:00.504 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:13:01.363 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:13:20.354 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:15:33.923 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:15:38.762 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:15:39.974 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:15:40.573 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:15:41.995 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:15:46.391 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:15:53.519 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:15:56.528 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:16:18.951 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : product has been added sucessfully
+2020-08-14 13:16:19.658 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:16:29.252 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:17:20.886 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:17:26.603 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:17:29.063 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:17:42.307 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:17:47.396 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:17:49.965 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:19:17.234 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:19:21.124 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:20:46.426 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:20:58.597 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:20:58.982 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:22:41.037 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:23:24.256 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:23:26.487 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:26:00.984 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:31:56.982 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:32:22.764 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:32:37.572 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:32:46.238 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:33:29.548 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:33:55.178 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:33:58.824 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:34:28.564 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:34:55.916 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:34:59.611 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:34:59.963 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:35:09.013 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:36:24.518 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:36:50.540 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:37:05.946 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:37:07.736 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:37:09.658 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:37:12.759 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:37:14.502 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:37:16.125 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:39:43.795 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:39:59.797 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:01.283 TRACE 772 --- [http-nio-8099-exec-2] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:01.957 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:02.260 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:02.623 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:03.235 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:03.514 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:05.758 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:40:07.636 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:10.696 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:40:18.337 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:45:13.668 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:45:16.710 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:45:17.842 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:45:56.931 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:47:36.877 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 13:47:40.537 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:47:53.441 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 13:48:53.380 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 14:04:35.488 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 14:04:40.003 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 14:04:42.127 TRACE 772 --- [http-nio-8099-exec-5] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 14:04:43.986 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 14:04:46.870 TRACE 772 --- [http-nio-8099-exec-8] c.cg.cart.controller.CartRestController  : product has been deleted
+2020-08-14 14:04:50.137 TRACE 772 --- [http-nio-8099-exec-9] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 14:05:06.332 TRACE 772 --- [http-nio-8099-exec-10] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 14:05:07.393 TRACE 772 --- [http-nio-8099-exec-1] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 14:05:09.608 TRACE 772 --- [http-nio-8099-exec-3] c.cg.cart.controller.CartRestController  : product has been deleted
+2020-08-14 14:05:12.097 TRACE 772 --- [http-nio-8099-exec-4] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 14:07:19.767 TRACE 772 --- [http-nio-8099-exec-6] c.cg.cart.controller.CartRestController  : access to get list of products
+2020-08-14 14:07:39.554 TRACE 772 --- [http-nio-8099-exec-7] c.cg.cart.controller.CartRestController  : product has been found
+2020-08-14 14:07:39.608 ERROR 772 --- [http-nio-8099-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:135) ~[na:1.8.0_20]
+	at com.cg.cart.controller.CartRestController.fetchProductById(CartRestController.java:50) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_20]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+
